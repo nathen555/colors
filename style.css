@@ -82,7 +82,8 @@ body {
 
 /* 4. Navbar Overlay Styles */
 .navbar {
-    position: relative;
+    position: sticky;
+    top: 0;
     z-index: 10;
     background-color: rgba(17, 17, 17, 0.4); 
     backdrop-filter: blur(12px); 
