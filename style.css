@@ -12,7 +12,6 @@ body {
     height: 100vh;
 }
 
-/* 1. Main Background Overlay Panel */
 .css-fluid-container {
     position: fixed;
     top: 0;
@@ -26,7 +25,6 @@ body {
     pointer-events: none;
 }
 
-/* 2. Abstract Liquid Color Elements */
 .blob {
     position: absolute;
     border-radius: 50%;
@@ -61,7 +59,7 @@ body {
     animation: liquidMoveThree 18s infinite alternate ease-in-out;
 }
 
-/* 3. Mathematical Animation Pathways for Color Transitions */
+
 @keyframes liquidMoveOne {
     0% { transform: translate(0px, 0px) scale(1); }
     50% { transform: translate(200px, 100px) scale(1.2); }
@@ -106,7 +104,7 @@ body {
     display: inline-block;
 }
 
-/* Hover Adjustments */
+
 .nav-links a.link-red:hover { color: #ff3b30; transform: translateY(-2px); }
 .nav-links a.link-orange:hover { color: #ff9500; transform: translateY(-2px); }
 .nav-links a.link-yellow:hover { color: #ffcc00; transform: translateY(-2px); }
@@ -114,7 +112,7 @@ body {
 .nav-links a.link-blue:hover { color: #007aff; transform: translateY(-2px); }
 .nav-links a.link-purple:hover { color: #af52de; transform: translateY(-2px); }
 
-/* Logo Text Animation Setup */
+
 .rgb-logo {
     font-size: 24px;
     font-weight: bold;
