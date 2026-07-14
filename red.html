@@ -5,10 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RED</title>
     <link rel="stylesheet" href="style.css">
+    
+    <style>
+      /* 1. Ensure the page is allowed to scroll vertically */
+      html, body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        overflow-y: auto;          /* Crucial: enables vertical scrolling */
+        background-color: #121214; /* Dark mode background so azure text shows up */
+      }
+
+      .main-title {
+        text-align: center; 
+        font-size: 250px;          /* Big, but small enough to still allow scrolling */
+        color: #ff0000;     
+        margin: 40px 0;
+      }
+    </style>
 </head>
 <body>
 
-    
     <!-- 1. fluid thingy -->
     <div class="css-fluid-container">
         <div class="blob blob-1"></div>
@@ -20,25 +37,24 @@
     <nav class="navbar">
         <div class="nav-logo"><a href="color.html" class="rgb-logo">Colors</a></div>
         <ul class="nav-links">
-    <li><a href="red.html" class="link-red">Red</a></li>
-    <li><a href="orange.html" class="link-orange">Orange</a></li>
-    <li><a href="yellow.html" class="link-yellow">Yellow</a></li>
-    <li><a href="green.html" class="link-green">Green</a></li>
-    <li><a href="blue.html" class="link-blue">Blue</a></li>
-    <li><a href="purple.html" class="link-purple">Purple</a></li>
-</ul>
-
+            <li><a href="red.html" class="link-red">Red</a></li>
+            <li><a href="orange.html" class="link-orange">Orange</a></li>
+            <li><a href="yellow.html" class="link-yellow">Yellow</a></li>
+            <li><a href="green.html" class="link-green">Green</a></li>
+            <li><a href="blue.html" class="link-blue">Blue</a></li>
+            <li><a href="purple.html" class="link-purple">Purple</a></li>
+        </ul>
     </nav>
-<h1  class="main-title">RED</h1>
 
-<style>
-  .main-title {
-    text-align: center; 
-    font-size: 500px;    
-    color: #ff0000;     
-  }
-</style>
-    <p style="color: azure;">hi</p>
-    <p style="color: azure;">i think its about colors</p>
+    <h1 class="main-title">RED</h1>
+
+    <p style="color: azure; text-align: center; font-weight: bold; font-size: 24px;">hi</p>
+    <p style="color: azure; text-align: center; font-weight: bold; font-size: 24px;">i think its about colors</p>
+    
+    <!-- This large margin pushes the element down, forcing the scrollbar to appear -->
+    <h2 style="text-align: center; margin-top: 60vh; color: white; padding-bottom: 50px;">
+        wow we can scroll
+    </h2>
+
 </body>
-<img src="data:image/png;base64,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" alt="A descriptive caption of the image">
+</html>
